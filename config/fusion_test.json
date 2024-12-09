@@ -8,17 +8,17 @@
     "path": {
         "log": "logs",
         "tb_logger": "tb_logger",
-        "results": "results",
+        "results": "/content/DifFusion_out",
         "checkpoint": "checkpoint", 
-        "resume_state": "Path_DF_MODEL"
+        "resume_state": "/content/diffusion"
     },
 
     "path_df": {
         "log": "logs",
         "tb_logger": "tb_logger",
-        "results": "results",
+        "results": "/content/DifFusion_out",
         "checkpoint": "checkpoint", 
-        "resume_state": "Path_DF-Fusion_MODEL"
+        "resume_state": "/content/fusion"
     },
 
     "datasets": {
@@ -43,8 +43,8 @@
             "data_len": -1    
         },
         "test": {
-            "name": "MSRS",
-            "dataroot": "Path_DATASET",
+            "name": "FMB",
+            "dataroot": "/content/FMB/test",
             "resolution": 640, 
             "image_size_w": 640,
             "image_size_h": 480,
