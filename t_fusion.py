@@ -44,8 +44,8 @@ if __name__ == "__main__":
             print("Creating train dataloader.")
             test_dataset = FD(split='val',
                               crop_size=dataset_opt['resolution'],
-                              ir_path='Path_IR',
-                              vi_path='Path_VIS',
+                              ir_path='/content/FMB/test/Infrared_640',
+                              vi_path='/content/FMB/test/Visible_640',
                               is_crop=False)
             print("the training dataset is length:{}".format(test_dataset.length))
             test_loader = DataLoader(
