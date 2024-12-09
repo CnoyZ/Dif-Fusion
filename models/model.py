@@ -162,7 +162,7 @@ class DDPM(BaseModel):
         if load_path is not None:
             logger.info(
                 'Loading pretrained model for G [{:s}] ...'.format(load_path))
-            gen_path = '{}_gen.pth'.format(load_path)
+            gen_path = '{}.pth'.format(load_path)
             # opt_path = '{}_opt.pth'.format(load_path)
             # gen
             network = self.netG
